@@ -20,7 +20,20 @@ public class LinearSearch {
         System.out.print("Enter the element to be searched: ");
         int key = scanner.nextInt();
 
+        boolean isFound = false;
+        int index;
+        for (index = 0; index < n; index++) {
+            if (arr[index] == key) {
+                isFound = true;
+                break;
+            }
+        }
 
+        if (isFound) {
+            System.out.println(key + " is found at index " + index + ".");
+        } else {
+            System.out.println(key + " is not found.");
+        }
         scanner.close();
     }
 }
