@@ -12,7 +12,7 @@ public class BinarySearch {
 
         int[] arr = new int[n];
 
-        System.out.print("Enter " + n + " elements for the array: ");  
+        System.out.print("Enter " + n + " elements for the array in ascending order: ");  
         for (int i = 0; i < n ; i++) {
             arr[i] = scanner.nextInt();
         }
