@@ -22,10 +22,11 @@ public class BinarySearch {
 
         int low = 0;
         int high = n - 1;
+        int mid = 0;
         boolean keyFound = false;
 
         while (low <= high) {
-            int mid = (low + high) / 2;
+            mid = (low + high) / 2;
 
             if (key == arr[mid]) {
                 keyFound = true;
@@ -36,7 +37,7 @@ public class BinarySearch {
                 low = mid + 1;
             }
         }
-        
+
         scanner.close();
     }
 }
