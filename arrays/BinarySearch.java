@@ -20,6 +20,9 @@ public class BinarySearch {
         System.out.print("Enter the element to be searched: ");
         int key = scanner.nextInt();
 
+        int low = 0;
+        int high = n - 1;
+
         scanner.close();
     }
 }
