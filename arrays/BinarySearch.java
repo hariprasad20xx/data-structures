@@ -38,6 +38,12 @@ public class BinarySearch {
             }
         }
 
+        if (keyFound) {
+            System.out.println(key + " is found at index " + mid);
+        } else {
+            System.out.println(key + " is not found");
+        }
+        
         scanner.close();
     }
 }
