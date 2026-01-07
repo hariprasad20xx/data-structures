@@ -8,4 +8,8 @@ public class Array {
         arr = new int[capacity];
         size = 0;
     }
+
+    public void insert(int value) {
+        
+    }
 }
