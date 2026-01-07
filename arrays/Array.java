@@ -10,6 +10,10 @@ public class Array {
     }
 
     public void insert(int value) {
+
+    }
+
+    public void insertAt(int index, int value) {
         
     }
 }
