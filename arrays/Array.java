@@ -22,7 +22,11 @@ public class Array {
     }
 
     public void deleteAt(int index) {
-        
+
+    }
+
+    public int search(int value) {
+        return -1;
     }
 
 }
