@@ -20,5 +20,9 @@ public class Array {
     public void delete() {
 
     }
-    
+
+    public void deleteAt(int index) {
+        
+    }
+
 }
