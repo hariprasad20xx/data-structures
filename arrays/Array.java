@@ -16,4 +16,9 @@ public class Array {
     public void insertAt(int index, int value) {
         
     }
+
+    public void delete() {
+
+    }
+    
 }
